@@ -6,6 +6,12 @@ Collecting workspace information
 
 The zomato-stock-analysis project is a real-time stock analysis and visualization tool for Zomato's stock data. It consists of two main components: a data producer and a web application.
 
+## Demo
+
+To see a demonstration of the application in action, watch the following video:
+
+![App Demo](assets/app_demo.mp4)
+
 ## Project Structure
 
 - **README.md**: Contains the project title.
@@ -42,7 +48,6 @@ The zomato-stock-analysis project is a real-time stock analysis and visualizatio
                                     | Historical Analysis|
                                     |  News Display    |
                                     +------------------+
-
 
 ## Components
 
@@ -83,8 +88,8 @@ For a complete list of dependencies, refer to the `requirements.txt` file.
 
 2. **Create and activate a virtual environment**:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python -m venv env
+    source env/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
 3. **Install the dependencies**:
