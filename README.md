@@ -9,8 +9,10 @@ The zomato-stock-analysis project is a real-time stock analysis and visualizatio
 ## Demo
 
 To see a demonstration of the application in action, watch the following video:
+<video controls width="600">
+  <source src="./assets/app_demo.mp4" type="video/mp4">
+</video>
 
-![App Demo](assets/app_demo.mp4)
 
 ## Project Structure
 
