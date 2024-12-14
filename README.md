@@ -13,6 +13,37 @@ The zomato-stock-analysis project is a real-time stock analysis and visualizatio
 - **streamlit_web_app.py**: Implements the Streamlit web application for visualizing Zomato's stock data.
 - **zomato_data_producer.py**: Produces real-time stock data for Zomato and sends it to a Kafka topic.
 
+## Data Flow
+
+                                    +-----------------+
+                                    |  Yahoo Finance  |
+                                    |       API       |
+                                    +--------+--------+
+                                             |
+                                             v
+                                    +--------+--------+
+                                    |  Data Producer  |
+                                    |(zomato_data_producer.py)|
+                                    +--------+--------+
+                                             |
+                                             v
+                                    +--------+--------+
+                                    |      Kafka      |
+                                    |     Cluster     |
+                                    +--------+--------+
+                                             |
+                                             v
+                                    +--------+--------+
+                                    |   Streamlit     |
+                                    |  Web Application|
+                                    | (streamlit_web_app.py) |
+                                    +--------+--------+
+                                    |  Real-time Chart |
+                                    | Historical Analysis|
+                                    |  News Display    |
+                                    +------------------+
+
+
 ## Components
 
 ### Data Producer
