@@ -2,21 +2,13 @@
 
 ## Workspace
 
-Collecting workspace information
-
 The zomato-stock-analysis project is a real-time stock analysis and visualization tool for Zomato's stock data. It consists of two main components: a data producer and a web application.
 
 ## Demo
 
-To see a demonstration of the application in action, watch the following video:
-
-<div style="text-align:center;">
-  <video controls width="600">
-    <source src="assets/app_demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
+![Demo Screenshot 1](assets/demo_screenshot_1.png)
+![Demo Screenshot 2](assets/demo_screenshot_2.png)
+![Demo Screenshot 3](assets/demo_screenshot_3.png)
 
 ## Project Structure
 
