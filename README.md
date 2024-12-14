@@ -62,7 +62,7 @@ For a complete list of dependencies, refer to the `requirements.txt` file.
     ```
 
 4. **Set up environment variables**:
-    Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env` for the required variables.
+    Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env.example` for the required variables.
 
 5. **Start the data producer**:
     ```sh
