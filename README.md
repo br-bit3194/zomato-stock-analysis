@@ -12,7 +12,8 @@ To see a demonstration of the application in action, watch the following video:
 
 <div style="text-align:center;">
   <video controls width="600">
-    <source src="./assets/app_demo.mp4" type="video/mp4">
+    <source src="assets/app_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 </div>
 
