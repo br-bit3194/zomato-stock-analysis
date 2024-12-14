@@ -6,9 +6,9 @@ The zomato-stock-analysis project is a real-time stock analysis and visualizatio
 
 ## Demo
 
-![Demo Screenshot 1](assets/demo_screenshot_1.png)
-![Demo Screenshot 2](assets/demo_screenshot_2.png)
-![Demo Screenshot 3](assets/demo_screenshot_3.png)
+![Demo Screenshot 1](./assets/demo_screenshot_1.png)
+![Demo Screenshot 2](./assets/demo_screenshot_2.png)
+![Demo Screenshot 3](./assets/demo_screenshot_3.png)
 
 ## Project Structure
 
