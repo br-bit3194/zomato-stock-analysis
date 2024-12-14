@@ -32,11 +32,47 @@ The application uses a Kafka consumer to receive real-time stock data and update
 ## Dependencies
 
 The project relies on various Python libraries, including:
+- `confluent_kafka` for Kafka integration (using a Confluent Kafka cluster from [Confluent Cloud](https://login.confluent.io/)) --> Create free account for month, no need to setup kafka on local machine. Create cluster, then topic name, also create api key for connecing the cluster
+That's it. Kafka is setup.
 
-- `confluent_kafka` for Kafka integration
 - `dotenv` for loading environment variables
 - `streamlit` for building the web application
 - `yfinance` for fetching stock data
 - `plotly` for data visualization
 
 For a complete list of dependencies, refer to the `requirements.txt` file.
+
+## Steps to run the application
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/zomato-stock-analysis.git
+    cd zomato-stock-analysis
+    ```
+
+2. **Create and activate a virtual environment**:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the dependencies**:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. **Set up environment variables**:
+    Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env` for the required variables.
+
+5. **Start the data producer**:
+    ```sh
+    python zomato_data_producer.py
+    ```
+
+6. **Run the Streamlit web application**:
+    ```sh
+    streamlit run streamlit_web_app.py
+    ```
+
+7. **Access the application**:
+    Open your web browser and go to `http://localhost:8501` to view the application.

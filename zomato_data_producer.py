@@ -35,7 +35,7 @@ while True:
     zomato['Price'] = stock.fast_info.last_price
     
     zomato['Name'] = stock.info['shortName']
-    zomato['Timestamp'] = time.time()
+    zomato['Timestamp'] = time.time()*1000
     print(zomato)
 
     producer.produce(kafka_topic, json.dumps(zomato))
